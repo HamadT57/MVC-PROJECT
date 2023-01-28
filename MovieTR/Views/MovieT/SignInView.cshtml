@@ -1,0 +1,57 @@
+﻿@model MovieTR.Models.SignIn
+
+@{
+    ViewData["Title"] = "LogInView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<hr />
+<div class="row" style="margin:25%;width:600px;align-items:center;justify-content:center;display:flex;background-color:aliceblue;border-radius:15px">
+    <div class="col-md-4">
+        <div style="align-items:center;justify-content:center;display:flex;"><img src="~/dist/img/1.jpg" />
+               </div>
+        @if (ViewData["Msg"] != null)
+        {
+            <div class="alert alert-success">
+                <strong>ERROR! </strong>@ViewData["Msg"]
+        </div>
+        
+            
+        }
+
+        <h1 style="align-items:center;justify-content:center;display:flex;color:black;">LOG IN</h1>
+
+        <p style="align-items:center;justify-content:center;display:flex;color:black;">Enter Your Credentials</p>
+        <form asp-action="SignIn">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group ">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group ">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Log In" class="btn btn-primary" />
+            </div>
+            
+        </form>
+        <div style="align-items:center;justify-content:center;display:flex;">
+            <a asp-controller="MovieT"
+               asp-action="SignUpView">New User?</a>
+            <a asp-controller="MovieT"
+               asp-action="ForgotPasswordView">Forgot Password?</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

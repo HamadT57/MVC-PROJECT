@@ -1,0 +1,59 @@
+﻿@model IEnumerable<MovieTR.Models.Theaters>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_ALayout.cshtml";
+}
+
+<h1>Theaters</h1>
+
+<p>
+    <a asp-action="AddTheaterView">Add Theater</a>
+</p>
+@if (ViewData["Msg"] != null)
+{
+    <div class="alert alert-default-success">
+   <strong>SUCCESS!</strong> @ViewData["Msg"]
+</div>}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Timage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TheaterName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TheaterPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TheaterLocation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    <img class="img-thumbnail" style="width:200px;height:200px" src=@item.Timage alt="Loadng" />
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TheaterName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TheaterPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TheaterLocation)
+            </td>
+            <td>
+                    <a asp-action="Edit" class="btn btn-danger" asp-route-id="@item.Id">Edit</a> |
+                
+                    <a asp-action="Delete" class="btn btn-warning"  asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+      }
+    </tbody>
+</table>

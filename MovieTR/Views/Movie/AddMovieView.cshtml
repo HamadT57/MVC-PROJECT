@@ -1,0 +1,68 @@
+﻿@model MovieTR.Models.Movies
+
+@{
+    ViewData["Title"] = "AddMovieView";
+    Layout = "~/Views/Shared/_ALayout.cshtml";
+}
+
+<h1>Add Movie</h1>
+@if (ViewData["Msg"] != null)
+{
+    <div class="alert alert-success" style="display:inline-block;">
+        <strong>Success! </strong>@ViewData["Msg"]
+    </div>
+
+
+}
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddMovie" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Genre" class="control-label"></label>
+                <input asp-for="Genre" class="form-control" />
+                <span asp-validation-for="Genre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReleaseDate" class="control-label"></label>
+                <input asp-for="ReleaseDate" class="form-control" />
+                <span asp-validation-for="ReleaseDate" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <<label asp-for="TheaterId" class="control-label"></label>
+                <input asp-for="TheaterId" class="form-control" />
+                <span asp-validation-for="TheaterId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                    <label asp-for="Mfile" class="control-label"></label>
+                    <input asp-for="Mfile" type="File" id="Mfile" class="form-control" />
+                    <span asp-validation-for="Mfile" class="text-danger"></span>
+                </div>
+            <div class="form-group">
+                <input type="submit" value="Add" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="MovieView">Back to List</a>
+</div>
+
+@*@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}*@

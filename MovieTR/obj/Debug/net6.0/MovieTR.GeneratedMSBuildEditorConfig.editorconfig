@@ -1,0 +1,145 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MovieTR
+build_property.RootNamespace = MovieTR
+build_property.ProjectDir = E:\Project\MovieTR\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Project\MovieTR
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Project/MovieTR/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/MovieT/AdminPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVUXEFkbWluUGFuZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/MovieT/BagView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVUXEJhZ1ZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/MovieT/ChangePassword1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVUXENoYW5nZVBhc3N3b3JkMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/MovieT/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVUXEZvcmdvdFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/MovieT/ForgotPasswordView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVUXEZvcmdvdFBhc3N3b3JkVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/MovieT/MovieView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVUXE1vdmllVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/MovieT/PChanged.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVUXFBDaGFuZ2VkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/MovieT/SignInView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVUXFNpZ25JblZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/MovieT/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVUXFNpZ25VcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/MovieT/SignUpView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVUXFNpZ25VcFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/MovieT/TDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVUXFREZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/MovieT/TheaterView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVUXFRoZWF0ZXJWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/Movie/AddMovie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQWRkTW92aWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/Movie/AddMovieView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQWRkTW92aWVWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/Movie/MDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcTURlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/Movie/MEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcTUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/Movie/MovieView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcTW92aWVWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/Shared/_ALayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/Theater/AddTheater.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlYXRlclxBZGRUaGVhdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/Theater/AddTheaterVIew.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlYXRlclxBZGRUaGVhdGVyVklldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/Theater/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlYXRlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/Theater/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlYXRlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/Theater/TheaterView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlYXRlclxUaGVhdGVyVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/User/UDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/User/UEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/User/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/MovieTR/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-avojku5q6r

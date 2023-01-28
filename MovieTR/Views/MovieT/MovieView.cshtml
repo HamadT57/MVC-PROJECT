@@ -1,0 +1,118 @@
+﻿@model IEnumerable<MovieTR.Models.Movies>
+
+@{
+    ViewData["Title"] = "Index";
+    ViewData["Role"] = User.Claims.Where(c => c.Type == "Role").FirstOrDefault()?.Value;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 col-xs-6 border-primary mb-3" style="display:inline-block;position: absolute;width:fit-content;height:fit-content;">
+            <div class="card mb-3" >
+                <div class="row g-0">
+                    <div class="col-md-12">
+                        <div class="card-header" style="background-color:black;">
+                            <p class="card-text">
+                                <h5 class="card-title" style="color:black;>
+                                    @item.Title
+
+
+
+
+                                </h5>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="@item.Mimage" width="220" />
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <p class="card-text" style="background-size:contain;"><b>Title: </b>@item.Title</p>
+                            <p class="card-text"><b>Genre: </b>@item.Genre</p>
+                            @*<p class="card-text" style="width:"><b>Description: </b>@item.Description</p>*@
+                            <p class="card-text"><b>ReleaseDate: </b>@item.ReleaseDate</p>
+
+
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card-footer ">
+                            <p class="card-text">
+
+                                <td>
+                                    <a asp-action="TDetails" class="btn btn-info" asp-route-id="@item.Id">Book Ticket</a> 
+
+                                    
+                                </td>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>}
+
+@*<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Mimage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Genre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReleaseDate)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.TheaterId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <img class="img-thumbnail" style="width:200px;height:200px" src=@item.Mimage alt="Loadng" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Genre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReleaseDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TheaterId)
+                </td>
+                <td>
+                    <a asp-action="MEdit" asp-route-id="@item.Id">Edit</a> |
+
+                    <a asp-action="MDelete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>*@
